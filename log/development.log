@@ -1,0 +1,21 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-25 01:18:14 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 362ms (Views: 354.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-01-25 01:18:15 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-01-25 01:18:15 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-01-25 01:18:15 +0530
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for 127.0.0.1 at 2015-01-25 01:18:15 +0530
+
+
+Started GET "/assets/application-3f03c8bf9ba1059e6e76d09c04cffd31.js?body=1" for 127.0.0.1 at 2015-01-25 01:18:15 +0530

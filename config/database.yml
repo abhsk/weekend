@@ -1,0 +1,18 @@
+defaults: &defaults
+  adapter: mysql2
+  username: root
+  password:
+
+development:
+  <<: *defaults
+  database: weekend_development
+
+test: &test
+  <<: *defaults
+  database: weekend_test<%= ENV['TEST_ENV_NUMBER'] %>
+
+production:
+  <<: *defaults
+  database: weekend_production
+
+
