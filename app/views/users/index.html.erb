@@ -1,0 +1,8 @@
+<% if @users.present? %>
+    <% @users.each_with_index do |user, index| %>
+        <p>User: <%= index+1 %></p>
+        <p>Email: <%= link_to user.email, user_path(user) %></p>
+    <%- end %>
+<% else %>
+    <p>No Users Present</p>
+<%- end %>

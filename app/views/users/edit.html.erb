@@ -1,0 +1,13 @@
+<%= form_for @user, url: user_path, :method => :patch do |f| %>
+    <div>
+      <%= f.label :name, "Name" %>
+      <%= f.text_field :name, value: @user.name %>
+    </div>
+    <div>
+      <%= f.label :email, "Email" %>
+      <%= f.text_field :email, value: @user.email %>
+    </div>
+    <div>
+      <%= submit_tag "Submit" %>
+    </div>
+<%- end %>
